@@ -1,5 +1,7 @@
 <script setup lang="ts">
 import logo from "./assets/dfinity.svg"
+import hljs from 'highlight.js';
+import CodeEditor from 'simple-code-editor';
 /*
  * Connect2ic provides essential utilities for IC app development
  */
@@ -41,7 +43,7 @@ const client = createClient({
         Examples
       </p>
       <div class="examples">
-        
+        <CodeEditor />
       </div>
     </div>
   </Connect2ICProvider>
