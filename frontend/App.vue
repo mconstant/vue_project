@@ -41,9 +41,7 @@ const client = createClient({
         Examples
       </p>
       <div class="examples">
-        <Counter />
-        <Profile />
-        <Transfer />
+        
       </div>
     </div>
   </Connect2ICProvider>
