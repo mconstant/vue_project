@@ -1,4 +1,5 @@
 <script setup lang="ts">
+
 import logo from "./assets/dfinity.svg"
 import hljs from 'highlight.js';
 import CodeEditor from 'simple-code-editor';
@@ -29,9 +30,20 @@ const client = createClient({
     dev: import.meta.env.DEV,
   },
 })
+
 </script>
 
 <template>
+  <div class="sidebar"  >
+    <router-link
+      to="/foo"
+      class="text-black hover:bg-green-600 hover:text-white px-4 py-2 rounded-md text-sm font-medium"
+      style=" margin-top: 10px; margin-bottom: 10px;"
+      active-class="bg-green-500 text-white"
+      aria-current="page"
+      >Foo</router-link
+    >
+  </div>
   <Connect2ICProvider :client="client">
     <div class="App">
       <div class="auth-section">
@@ -147,6 +159,20 @@ button {
   top: 0;
   right: 0;
 }
+
+.sidebar{
+   
+   background-color:rgb(228, 214, 214) ;
+   
+   z-index: 2; /* Stay on top */
+   top: 0; /* Stay at the top */
+   left: 0;
+   float: left;
+   height: 100%;
+   position: fixed;
+   margin: auto;
+
+ }
 
 @keyframes pulse {
   0% {

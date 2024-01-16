@@ -679,6 +679,11 @@ vite@^2.5.10, vite@^2.9.13:
   optionalDependencies:
     fsevents "~2.3.2"
 
+vue-sidebar-menu@^5.3.1:
+  version "5.3.1"
+  resolved "https://registry.npmjs.org/vue-sidebar-menu/-/vue-sidebar-menu-5.3.1.tgz"
+  integrity sha512-i4674eLSTeSQeXGrIssqGm3k5r4iegguOTRe30nvkliZl6c+M71CGOqkakTox6XOB//2ZrLwyECDlOXBqmaUMg==
+
 vue-tsc@^0.38.2:
   version "0.38.9"
   resolved "https://registry.npmjs.org/vue-tsc/-/vue-tsc-0.38.9.tgz"
