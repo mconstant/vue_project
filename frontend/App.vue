@@ -36,13 +36,6 @@ const client = createClient({
         <ConnectButton />
       </div>
       <ConnectDialog />
-      <header class="App-header">
-        <img :src="logo" class="App-logo" alt="logo" />
-        <p class="slogan">
-          Vue+TypeScript Template
-        </p>
-        <p class="twitter">by <a href="https://twitter.com/miamaruq">@miamaruq</a></p>
-      </header>
 
       <p class="examples-title">
         Examples
